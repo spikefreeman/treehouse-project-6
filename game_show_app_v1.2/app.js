@@ -104,10 +104,7 @@ const checkWin = () => {
         overlay.className = 'lose';
         title.textContent = `You lost! Please try again!'`;
         overlay.style.display = 'flex';
-        startButton.textContent = 'Try Again!';
-        startButton.addEventListener('click', () => { 
-            setPlayAgain();
-        });
+        startBtn.textContent = 'Try Again!';
     }
 };
 
